@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
-    "preview": "svelte-kit preview"
+    "preview": "svelte-kit preview",
+    "update": "yarn upgrade-interactive && yarn"
   },
   "devDependencies": {
     "@sveltejs/adapter-vercel": "^1.0.0-next.24",
